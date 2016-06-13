@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is a static variable?
+"
+        android:id="@+id/textView"
+        android:fontFamily="@string/abc_searchview_description_clear"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="30dp"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A static variable is a special variable that is stored in the data segment unlike the default automatic variable that
+is stored in stack. A static variable can be initialized by using keyword static before variable name.
+"
+        android:id="@+id/textView3"
+        android:background="@android:color/holo_red_light"
+        android:textSize="25dp"
+        android:fontFamily="@string/abc_action_menu_overflow_description"
+        android:layout_weight="0.29" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/bnexx"
+        android:layout_gravity="right"
+        android:textSize="@dimen/abc_action_bar_progress_bar_size"
+        android:fontFamily="@string/abc_shareactionprovider_share_with"
+        android:background="@drawable/buttonshape"
+        android:layout_weight="0.08" />
+
+</LinearLayout>

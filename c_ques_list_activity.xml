@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_bright"
+
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is a pointer in C?"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A pointer is a special variable in C language meant just to store address of any other variable or function."
+            android:textSize="16dp" />
+        " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textVie1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is a static variable?"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textVie2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A static variable is a special variable that is stored in the data segment unlike the default automatic variable that
+is stored in stack.
+"
+            android:textSize="16dp" />
+        " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is a register variable?"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register variables are stored in the CPU registers. Its default value is a garbage value."
+            android:textSize="16dp" />
+        " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/te1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Where is an auto variables stored?"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/te2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main memory and CPU registers are the two memory locations where auto variables are stored."
+            android:textSize="16dp" />
+        " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is an Enumeration Constant?"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enumeration is a data type. We can create our own data type and define values that the variable can take."
+            android:textSize="16dp" />
+        " />
+    </LinearLayout>
+
+</LinearLayout>
